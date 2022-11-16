@@ -507,3 +507,49 @@ footer {
     font-family: 'Josefin Sans';
     font-style: italic
 }
+
+/*Fim página cardápio*/
+#pagina-quem-somos #caixa1{
+    background: url("imagens/bolos.jpg") center;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+#pagina-quem-somos #caixa1 h1 {
+    font-weight: 100;
+    color: white;
+    font-size: 120px;
+    padding-left: 60px;
+    border-bottom: 5px dotted rgb(254, 6, 204);
+    border-width: 10px;
+}
+
+#pagina-quem-somos #caixa2 {
+    width: 100%;
+    height: 600px;
+    border: 1px solid blue;
+}
+
+#pagina-quem-somos #seção1{
+    width: 45%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#pagina-quem-somos #seção2{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    background: url("imagens/docinhos.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+#pagina-quem-somos #caixa3 {
+    width: 100%;
+    height: 600px;
+    border: 1px solid blue;
+}

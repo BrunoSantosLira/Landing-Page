@@ -1,0 +1,509 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    min-width: 680px;
+}
+
+h1,h2,h3{
+    font-family: 'Dynalight';
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: #FAB265;
+}
+
+h2 {
+    color: #FAB265;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Dynalight';
+    margin:5px;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*Fontes*/
+@font-face {
+    font-family: "josefins";
+    src: url("fontes/JosefinSans-Thin.woff");
+}
+
+@font-face {
+    font-family: "josefins-italic";
+    src: url("fontes/JosefinSans-ThinItalic.woff");
+}
+
+
+/*FONTES-FIM*/
+
+
+#caixa1{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    background: url("imagens/doceria.jpg");
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+/*CAIXA 2 COM TRÊS CONTAINERS-INÍCIO*/
+#caixa2{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container1,.container2,.container3{
+    margin: 10px;
+    width: 25%;
+    height: 500px;
+}
+
+
+.container1{
+
+}
+
+.container2{
+    background: url("imagens/brownie.jpg") no-repeat center center;
+    background-size: 500px 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.container3{
+    background: url("imagens/sorvete.jpg") no-repeat center center;
+    background-size: 500px 100%;
+}
+/*CAIXA 2 COM TRÊS CONTAINERS-INÍCIO*/
+
+/*BOTÕES-INÍCIO*/
+#botão1{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 12px 10px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #CF0CF5;
+    border: 2px solid black;
+
+}
+
+#botão1:hover{
+    background-color: #db1269;
+    transition: all 1s;
+}
+/*BOTÕES-FIM*/
+
+/*Cabeçalho-Início*/
+
+header{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-left: 160px;
+    display: block;
+}
+
+nav ul  {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-top: -100px;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 25px;
+}
+
+nav ul li a {
+    color: #B204F4;
+    font-weight: bold
+}
+
+#botao2{
+    color: white;
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color: #CF0CF5;
+    border: 3px solid black;
+}
+
+#botao2:hover{
+    background-color: #db1269;
+    transition: all 1s;
+}
+
+/*Cabeçalho-FIM*/
+
+/*Apresentação inicial*/
+#apresentação{
+    z-index: 1;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+#apresentação img {
+    opacity: 1;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#apresentação h1 {
+  
+   text-align: center;
+   margin: 0;
+   font-size: 120px;
+   color: white;
+   font-weight: bold;
+   font-weight: 10;
+}
+
+/*Fim*/
+
+/*Cardápio-Início*/
+
+#cardápio{
+    width: 100%;
+    height: 900px;
+    background-color: #FFFCF5;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#cardápio h2 {
+    color: #F09DB1;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Dynalight';
+    margin:5px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#apresentação p {
+    font-size: 30px;
+    color: rgb(100, 98, 98);
+}
+
+#cardápio #apresentação{
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+#itens{
+    margin: 0 auto;
+    width: 95%;
+    height: 300px;
+    margin-bottom: 50px ;
+}
+
+.produto{
+    margin-left: 1%;
+    float: left;
+    width: 48%;
+    height: 150px;
+    border-bottom: 2px dotted rgb(184, 182, 182);
+}
+
+.produto img {
+    float: left;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.produto h3 {
+    margin: 0 10px;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.produto p {
+    display: block;
+    margin: 0 0px;
+    text-align: top;
+}
+
+.preço{
+    font-size: 30px;
+    color: #FAB265;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#botao3{
+    clear: both;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background: linear-gradient( to right,red,blue);
+    border: 3px solid black;
+}
+
+#botao3:hover{
+    background: linear-gradient( to right, blue, red);
+    transition:  all 2s;
+}
+
+/*Cardápio-Fim*/
+
+/*Promoção-início*/
+
+#promoção{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lado {
+    width: 48%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lado1 {
+    background: url("imagens/cupcakes.jpg") no-repeat center right;
+    background-size: cover;
+    width: 48%;
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 30px;
+   
+}
+/*Promoção-Fim*/
+
+
+/*Depoimentos-Início*/
+#caixa-depoimentos{
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(219, 218, 218);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.depoimento{
+    width: 48%;
+    height: 250px;
+    border-left: 4px dotted #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimento h2 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.depoimento p {
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.depoimento img {
+    border-radius: 30px;
+}
+/*Depoimentos-Fim*/
+
+/*Rodapé-Início*/
+footer {
+    width: 40%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.lado-rodapé{
+    width: 50%;
+    height: 100%;
+}
+
+.lado-rodapé h3 {
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.lado-rodapé li {
+    list-style-type: none;
+    margin: 10px;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.lado-rodapé a:hover {
+    color: #B204F4;
+}
+
+#rodapé {
+    width: 100%;
+    height: 60px;
+    background-color: #EEEEEE
+}
+
+#rodapé p {
+    padding: 20px;
+    text-align: center;
+}
+/*Rodapé-Fim*/
+/*FIM DA PÁGINA HOME*/
+
+/*Página Cardápio-Parallax*/
+#pagina-cardápio #caixa1{
+    background: url("imagens/cookies-fundo.jpg") center;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#pagina-cardápio #caixa1 h1 {
+    font-weight: 100;
+    color: white;
+    font-size: 100px;
+    padding-left: 60px;
+    border-bottom: 5px solid rgb(254, 6, 204);
+    border-width: 10px;
+}
+/*Página Cardápio-Parallax-FIM*/
+
+/*Cardápio-brigadeiro*/
+#brigadeiro{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+#brigadeiro .lado{
+    width: 50%;
+    height: 100%;
+    background: url("imagens/brigadeiros.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 80px;
+}
+
+#brigadeiro .lado2{
+    width: 50%;
+    height: 100%;
+}
+
+#brigadeiro .lado2 h3{
+    font-size: 25px;
+    font-family: 'Josefin Sans';
+    font-style: italic
+}
+/*Fim-*/
+/*Cardápio-Bolo*/
+#bolo{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    background-color: #FFFCF5;
+    padding: 50px;
+}
+
+#bolo .lado{
+    width: 50%;
+    height: 100%;
+    background: url("imagens/bolos.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 80px;
+}
+
+#bolo .lado2{
+    width: 50%;
+    height: 100%;
+}
+
+#bolo .lado2 h3{
+    font-size: 25px;
+    font-family: 'Josefin Sans';
+    font-style: italic
+}
+/*Fim*/
+/*Cardápio-Kits*/
+#kits{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+#kits .lado{
+    width: 50%;
+    height: 100%;
+    background: url("imagens/kits.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 80px;
+}
+
+#kits .lado2{
+    width: 50%;
+    height: 100%;
+}
+
+#kits .lado2 h3{
+    font-size: 25px;
+    font-family: 'Josefin Sans';
+    font-style: italic
+}

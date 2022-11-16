@@ -3,7 +3,7 @@
     <head>
           <meta charset='utf-8'>
          <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-         <title>Quem Somos-Vida Adoçada</title>
+         <title>Contato- Adoçada</title>
          <meta name='viewport' content='width=device-width, initial-scale=1'>
          <link rel="stylesheet" type="text/css" href="estilo.css">
          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -18,7 +18,7 @@
        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     </head>
 
-    <body id="pagina-quem-somos">
+    <body id="contato">
             <header>
                 <img src="imagens/logo.png" width="160px" height="160px">
                 <nav>
@@ -35,49 +35,55 @@
             <main>
             <article id="caixa1">
                 <section >
-                    <h1>Quem somos</h1>
+                    <h1>Faça seu pedido</h1>
+                    <p style="text-indent: 45px;">
+                        (81) 9 8923-5399
+                    </p>
                 </section>
             </article>
 
-            <article id="caixa2">
-                <section id="seção1">
-                    <img src="imagens/donout.png" width="150" height="150">
-                    <p style="font-size: 30px;">
-                        Nossa doceria é conhecida por proporcionar os melhores doces de toda a região do agreste. Trazendo sempre felicidade, carinho e amor para todos!
-                    </p>
-                    <p style="line-height: 25px; color:gray;">
-                        Lorem ipsum condimentum bibendum aenean imperdiet interdum curabitur pharetra sed, venenatis senectus eleifend auctor magna cubilia fermentum pulvinar, scelerisque cursus habitasse id venenatis ipsum consequat sociosqu. aenean ornare aptent consequat fringilla consectetur suspendisse, dictumst turpis praesent morbi sem, pharetra turpis tortor class nunc. ullamcorper vestibulum sit curabitur neque vel molestie imperdiet mollis, molestie libero auctor lacinia leo cras etiam, nullam per aptent aenean morbi cursus donec. augue sit lacinia mattis platea malesuada ac porta urna etiam aenean morbi, nunc erat rhoncus non etiam nec mauris pulvinar accumsan risus. odio rutrum ut nisl magna scelerisque dolor elementum, nam pellentesque orci eu nisi neque, ultricies consequat erat praesent lobortis primis.
-                    </p>
-                </section>
-                <section id="seção2">
-                </section>
-            </article>
-
-            <article id="caixa3">
-                <h2>Comodidade</h2>
+            <section style="text-align: center;">
+                <h2 style="color: black;">Entre em contato</h2>
                 <p>
-                        <span class="material-symbols-outlined">
-                            payments
-                        </span>
-                        <span style="margin-bottom: 10px ;">Preços</span>
-                        <span class="material-symbols-outlined">
-                            sprint
-                        </span>
-                        <span style="margin-bottom: 10px ;">Rapidez</span>
-                        <span class="material-symbols-outlined">
-                            handshake
-                        </span>
-                        <span style="margin-bottom: 10px ;">Confiança</span>
-                        <span class="material-symbols-outlined">
-                            cake
-                        </span>
-                        <span style="margin-bottom: 10px ;">Ingredientes</span>
-                        <h2 style="margin-top: 20px;">Recomendado por</h2>
-                    <span><img src="imagens/Facebook-Review-Logo.jpg" width="120px" height="80px"></span>
-                    <span><img src="imagens/google-review-logo-4.7.jpg" width="180px" height="80px"></span>
-                    <span><img src="imagens/download.png" width="160px" height="60px"></span>
-                    <span><img src="imagens/images.jpg" width="160px" height="60px"></span>
+                    Iremos te responder o mais rápido possível
                 </p>
+            </section>
+
+            <article id="caixa-formulário">
+                <form>
+                    <label for="nome">Nome Completo <span style="color: red;">*</span></label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome aqui" required><br>
+                    <span style="color: gray;">Digite seu nome</span><br><br>
+
+                    <label for="email">Email <span style="color: red;">*</span></label><br>
+                    <input type="email" id="email" name="email" placeholder="Seu email aqui" required><br>
+                    <span style="color: gray;">Digite seu email</span><br><br>
+
+                    <label for="email">Telefone <span style="color: red;">*</span></label><br>
+                    <input type="text" id="email" name="email" placeholder="ex: (99) 9 9999-9999" required><br>
+                    <span style="color: gray;">Digite seu telefone</span><br><br>
+
+                    Unidade:<br>
+                    <select>
+                        <option>Caruaru</option>
+                        <option>Garanhuns</option>
+                        <option>Recife</option>
+                    </select><br><br>
+                    Sua mensagem:<span style="color: red;">*</span><br>
+                    <textarea required></textarea><br>
+                    <span style="color: gray;">Seja o mais descritivo possível</span><br><br>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="lembrar" id="sim" class="radio">Desejo receber SPAM
+                        </label>
+                    </div><br>
+
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+            </article>
+            <article id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15801.695697919458!2d-34.89252580321043!3d-8.058167367166476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bd9d6c2a072628d!2sUniversidade%20Cat%C3%B3lica%20de%20Pernambuco!5e0!3m2!1spt-BR!2sbr!4v1668632925667!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
 
             
